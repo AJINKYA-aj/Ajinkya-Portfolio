@@ -76,7 +76,7 @@ export default function Hero() {
             <div style={{ position: "absolute", inset: "2px", borderRadius: "50%", background: "var(--navy)", zIndex: 1 }} />
             <div style={{
               position: "relative", zIndex: 2,
-              width: "450px", height: "450px",
+              width: "400px", height: "400px",
               borderRadius: "50%", overflow: "hidden",
               border: "3px solid rgba(6,182,212,0.3)",
             }}>
