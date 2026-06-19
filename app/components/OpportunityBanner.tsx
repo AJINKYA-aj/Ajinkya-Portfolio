@@ -4,10 +4,9 @@ import { useInView } from "react-intersection-observer";
 import { Briefcase, Sparkles, Code2, Brain } from "lucide-react";
 
 const roles = [
-  { icon: Code2, label: "Software Engineering", color: "#3B82F6" },
   { icon: Sparkles, label: "Generative AI / LLM", color: "#8B5CF6" },
-  { icon: Brain, label: "AI / ML Engineering", color: "#06B6D4" },
   { icon: Briefcase, label: "Full Stack Development", color: "#10B981" },
+  
 ];
 
 export default function OpportunityBanner() {
