@@ -16,14 +16,14 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer style={{ borderTop: "1px solid rgba(59,130,246,0.12)", padding: "3rem 2rem", textAlign: "center" }}>
-      <p style={{ fontFamily: "JetBrains Mono, monospace", fontSize: "0.85rem", color: "#3B82F6", marginBottom: "1.5rem", transition: "opacity 0.5s" }}>
-        "{quotes[q]}"
+    <footer style={{ borderTop: "1px solid rgba(59,130,246,0.12)", padding: "2.5rem 1.25rem", textAlign: "center" }}>
+      <p style={{ fontFamily: "JetBrains Mono, monospace", fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)", color: "#3B82F6", marginBottom: "1.25rem", transition: "opacity 0.5s", lineHeight: 1.6, maxWidth: "480px", margin: "0 auto 1.25rem" }}>
+        &ldquo;{quotes[q]}&rdquo;
       </p>
-      <p style={{ color: "#475569", fontSize: "0.8rem" }}>
+      <p style={{ color: "#475569", fontSize: "0.78rem" }}>
         Designed & Built by <span style={{ color: "#06B6D4", fontWeight: 600 }}>Ajinkya Tompe</span> · 2025
       </p>
-      <p style={{ color: "#334155", fontSize: "0.72rem", marginTop: "0.5rem", fontFamily: "JetBrains Mono, monospace" }}>
+      <p style={{ color: "#334155", fontSize: "0.7rem", marginTop: "0.4rem", fontFamily: "JetBrains Mono, monospace" }}>
         Next.js · TypeScript · Tailwind · Framer Motion
       </p>
     </footer>
